@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="FLOW,映画,オフィシャルサイト">
+        <meta name="description" content="映画『FLOW』の紹介ページです。">
+        <title>映画『FLOW』公式サイト</title>
+        <link rel="stylesheet" href="css/style.css">    <!--rel：リレーション-->
+    </head>
+    <body>
+                
+        <div class="header_mainvisual_container">
+
+            <header class="page_header">
+                <div class="header_wrapper"><!--flexコンテナ：ヘッダー-->
+                    <div class="header_logo"><!--flexアイテム：ロゴ-->
+                        <h1><a href="index.html"><img src="images/img-logo.png" alt=""></a></h1>
+                    </div><!--/.header_logo-->
+                    <nav class="header_nav"><!--flexアイテム：ナビゲーション-->
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="story.html">STORY</a></li>
+                            <li><a href="characters.html">CHARACTERS</a></li>
+                            <li><a href="staff.html">STAFF</a></li>
+                        </ul>
+                    </nav>
+                </div><!--/.header_wrapper-->
+            </header><!--/.page_header-->
+
+        </div><!--/.header_mainvisual_container-->
+
+        <div class="mainvisual_second">
+            <video autoplay muted loop playsinline>
+                    <source src="images/flow-top-video.mp4" type="video/mp4">
+                    <!-- サポートされていない場合の代替テキスト -->
+                    Your browser does not support the video tag.
+            </video>
+        </div><!--/.mainvisual_second-->
+
+        <main class="maincontents_second">
+            <h2>STORY</h2>
+            <div class="content_wrapper"><!--flexコンテナ-->
+                <div class="content_text">
+                    <p>世界が大洪水に包まれ、<br>今にも街が消えようとする中、<br>ある一匹の猫は居場所を後に旅立つ事を決意する。<br>流れて来たボートに乗り合わせた動物たちと、<br>想像を超えた出来事や予期せぬ危機に襲われることに。<br>しかし、彼らの中で少しずつ友情が芽生えはじめ、<br>たくましくなっていく。<br>彼らは運命を変える事が出来るのか？<br>そして、この冒険の果てにあるものとは――？</p>
+                </div>
+                <div class="content_img">
+                    <img src="images/second_bottom.jpg" alt="STORYイメージ">
+                </div>
+        </main><!--/.maincontents_second-->
+
+        <footer class="page_footer">
+            <nav class="footer_nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="story.html">STORY</a></li>
+                    <li><a href="characters.html">CHARACTERS</a></li>
+                    <li><a href="staff.html">STAFF</a></li>
+                </ul>
+            </nav><!--/nav class="footer_nav"-->
+            <div class="footer_billing">
+                <img src="images/billing_short.png" alt="">
+            </div>
+            <div class="copyright">
+                <small>&copy;Dream Well Studio, Sacrebleu Productions & Take Five</small>
+                <!-- ©　文字参照：&copy; -->
+                <!--または　 <small>Copyright 2025 THE BATMAN</small> -->
+            </div>
+        </footer><!--/.page_footer-->
+    </body>
+</html>
